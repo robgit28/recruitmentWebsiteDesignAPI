@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32611.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "recruitmentWebsiteDesignAPI", "recruitmentWebsiteDesignAPI\recruitmentWebsiteDesignAPI.csproj", "{06B7D017-95D8-4BFF-8F64-DBCAE10CB4BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "recruitmentWebsiteDesign.API", "recruitmentWebsiteDesignAPI\recruitmentWebsiteDesign.API.csproj", "{06B7D017-95D8-4BFF-8F64-DBCAE10CB4BB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9FE9FBF-289E-4ED3-B699-0319CA449E50} = {D9FE9FBF-289E-4ED3-B699-0319CA449E50}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "recruitmentWebsiteDesign.Core", "recruitmentWebsiteDesign.Core\recruitmentWebsiteDesign.Core.csproj", "{986C8E36-EE6F-4856-8A1D-828995EB55E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "recruitmentWebsiteDesign.Data", "recruitmentWebsiteDesign.Data\recruitmentWebsiteDesign.Data.csproj", "{D9FE9FBF-289E-4ED3-B699-0319CA449E50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,14 @@ Global
 		{06B7D017-95D8-4BFF-8F64-DBCAE10CB4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06B7D017-95D8-4BFF-8F64-DBCAE10CB4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06B7D017-95D8-4BFF-8F64-DBCAE10CB4BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{986C8E36-EE6F-4856-8A1D-828995EB55E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986C8E36-EE6F-4856-8A1D-828995EB55E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986C8E36-EE6F-4856-8A1D-828995EB55E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986C8E36-EE6F-4856-8A1D-828995EB55E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9FE9FBF-289E-4ED3-B699-0319CA449E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9FE9FBF-289E-4ED3-B699-0319CA449E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9FE9FBF-289E-4ED3-B699-0319CA449E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9FE9FBF-289E-4ED3-B699-0319CA449E50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
